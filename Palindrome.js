@@ -1,7 +1,6 @@
 function isPalindrome(x) {
-  // transforma o número recebido (x) em string
-  // exemplo: 121 -> "121" ,   -121 -> "-121"
-  let str = x.toString();          
+
+  let str = x.toString(); // transforma o número recebido (x) em string 
 
   // pega a string, divide em um array de caracteres, inverte e junta de novo
   // "121" -> ['1','2','1'] -> ['1','2','1'] -> "121"
